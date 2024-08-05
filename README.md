@@ -1,2 +1,2 @@
 # Sudoku-Game-Solver-using-Java-AWT-JavaSwing
-rookie project
+A simple GUI game app purely made in JAVA
