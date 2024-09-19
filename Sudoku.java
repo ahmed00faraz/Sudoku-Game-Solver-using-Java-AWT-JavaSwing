@@ -4232,10 +4232,6 @@ public class Sudoku extends JFrame implements ActionListener, KeyListener {
                     for (int numberToTry = 1; numberToTry <= 9; numberToTry++) {
                         if (isValidPlacement(tar, numberToTry, row, column)) {
                             tar[row][column] = numberToTry;
-                            //fucked here
-
-//                            bt[row][column].setText(String.valueOf(numberToTry));
-
                             if (solveBoard(tar)) {
                                 return true;
                             }
